@@ -1,0 +1,11 @@
+.itemJs{
+ 
+
+}
+.gallery{
+    display: grid;
+    grid-template-rows: repeat(4, 370px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+    list-style: none;
+}
