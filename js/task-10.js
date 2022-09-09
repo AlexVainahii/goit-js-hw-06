@@ -10,7 +10,6 @@ buttonCreate.addEventListener("click", () => {
   createBoxes(inputCount.value);
 });
 function createBoxes(amount) {
-  console.log(amount);
   let startSize = 30;
   let markup = "";
   for (let i = 1; i <= amount; i += 1) {
